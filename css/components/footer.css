@@ -1,0 +1,38 @@
+footer {
+  height: 240px;
+  background-color: #2c2b2b;
+  display: flex;
+  align-items: center;
+}
+footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  font-size: 48px;
+  margin: 0px 24px;
+}
+footer li a {
+  color: #999999;
+  transition-duration: 100ms;
+  transition-timing-function: ease-in-out;
+}
+footer li a:hover {
+  color: #eee;
+}
+footer p {
+  text-align: center;
+  padding-top: 24px;
+  color: #999999;
+  font-weight: 200;
+}
+
+.fa-heart {
+    color: #BF0F12;
+}
